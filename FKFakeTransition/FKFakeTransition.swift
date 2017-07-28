@@ -8,6 +8,17 @@
 
 import UIKit
 
-class FKFakeTransition: NSObject {
+public protocol FKFakeTransitionCreator {
+    static func create(with keyWindow: UIWindow) -> FKFakeTransitioning
+}
 
+public protocol FKFakeTransitioning {
+    
+}
+
+class FKFakeTransition {
+    var window: UIWindow
+    init(_ keyWindow: UIWindow) {
+        window = keyWindow
+    }
 }

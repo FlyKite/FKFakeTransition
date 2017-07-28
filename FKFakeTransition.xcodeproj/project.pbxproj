@@ -13,6 +13,7 @@
 		A6CC6ED91F2B93E30048CA80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6CC6ED81F2B93E30048CA80 /* Assets.xcassets */; };
 		A6CC6EDC1F2B93E30048CA80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6CC6EDA1F2B93E30048CA80 /* LaunchScreen.storyboard */; };
 		A6CC6EE51F2B95060048CA80 /* FKFakeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CC6EE41F2B95060048CA80 /* FKFakeTransition.swift */; };
+		A6CC6EE71F2BAE530048CA80 /* FKPaperFoldingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CC6EE61F2BAE530048CA80 /* FKPaperFoldingTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A6CC6EDB1F2B93E30048CA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6CC6EDD1F2B93E30048CA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6CC6EE41F2B95060048CA80 /* FKFakeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FKFakeTransition.swift; sourceTree = "<group>"; };
+		A6CC6EE61F2BAE530048CA80 /* FKPaperFoldingTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FKPaperFoldingTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				A6CC6EE41F2B95060048CA80 /* FKFakeTransition.swift */,
+				A6CC6EE61F2BAE530048CA80 /* FKPaperFoldingTransition.swift */,
 			);
 			path = FKFakeTransition;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6CC6EE71F2BAE530048CA80 /* FKPaperFoldingTransition.swift in Sources */,
 				A6CC6EE51F2B95060048CA80 /* FKFakeTransition.swift in Sources */,
 				A6CC6ED41F2B93E30048CA80 /* ViewController.swift in Sources */,
 				A6CC6ED21F2B93E30048CA80 /* AppDelegate.swift in Sources */,
@@ -277,7 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 77M64ZZJGP;
-				INFOPLIST_FILE = FKFakeTransition/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../Desktop/FKFakeTransition/FKFakeTransition/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flykite.FKFakeTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,7 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 77M64ZZJGP;
-				INFOPLIST_FILE = FKFakeTransition/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../Desktop/FKFakeTransition/FKFakeTransition/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flykite.FKFakeTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
