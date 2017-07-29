@@ -69,8 +69,7 @@
 				A6CC6EDA1F2B93E30048CA80 /* LaunchScreen.storyboard */,
 				A6CC6EDD1F2B93E30048CA80 /* Info.plist */,
 			);
-			name = FKFakeTransitionDemo;
-			path = ../../../Desktop/FKFakeTransition/FKFakeTransition;
+			path = FKFakeTransitionDemo;
 			sourceTree = "<group>";
 		};
 		A6CC6EE31F2B94E80048CA80 /* FKFakeTransition */ = {
