@@ -26,16 +26,28 @@ public protocol FKFakeTransitioning {
     func performFakeTransitioning()
 }
 
-public class FKFakeTransition {
+public class FKFakeTransition: NSObject {
     var window: UIWindow
     init(_ keyWindow: UIWindow) {
         window = keyWindow
     }
     
+    func shotWindow() -> UIImage? {
+//        let view = UIScreen.main.snapshotView(afterScreenUpdates: true)
+        let view = self.window.snapshotView(afterScreenUpdates: true)
+        UIGraphicsBeginImageContextWithOptions(UIScreen.main.bounds.size, true, UIScreen.main.scale)
+//        self.window.drawHierarchy(in: self.window.bounds, afterScreenUpdates: true)
+        self.window.layer.render(in: UIGraphicsGetCurrentContext()!)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return image
+    }
+    
     func shotWindow(_ rect: CGRect) -> UIImage? {
+        let screenshot = self.shotWindow()
         UIGraphicsBeginImageContextWithOptions(rect.size, true, UIScreen.main.scale)
         let frame = CGRect(origin: CGPoint(x: -rect.origin.x, y: -rect.origin.y), size: self.window.bounds.size)
-        self.window.drawHierarchy(in: frame, afterScreenUpdates: true)
+        screenshot?.draw(in: frame)
         let image = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         return image
