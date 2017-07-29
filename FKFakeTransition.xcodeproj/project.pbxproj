@@ -14,6 +14,7 @@
 		A6CC6EDC1F2B93E30048CA80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6CC6EDA1F2B93E30048CA80 /* LaunchScreen.storyboard */; };
 		A6CC6EE51F2B95060048CA80 /* FKFakeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CC6EE41F2B95060048CA80 /* FKFakeTransition.swift */; };
 		A6CC6EE71F2BAE530048CA80 /* FKPaperFoldingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CC6EE61F2BAE530048CA80 /* FKPaperFoldingTransition.swift */; };
+		A6CC6EE91F2BCA0D0048CA80 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CC6EE81F2BCA0D0048CA80 /* ExampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A6CC6EDD1F2B93E30048CA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6CC6EE41F2B95060048CA80 /* FKFakeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FKFakeTransition.swift; sourceTree = "<group>"; };
 		A6CC6EE61F2BAE530048CA80 /* FKPaperFoldingTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FKPaperFoldingTransition.swift; sourceTree = "<group>"; };
+		A6CC6EE81F2BCA0D0048CA80 /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				A6CC6ED11F2B93E30048CA80 /* AppDelegate.swift */,
 				A6CC6ED31F2B93E30048CA80 /* ViewController.swift */,
+				A6CC6EE81F2BCA0D0048CA80 /* ExampleViewController.swift */,
 				A6CC6ED51F2B93E30048CA80 /* Main.storyboard */,
 				A6CC6ED81F2B93E30048CA80 /* Assets.xcassets */,
 				A6CC6EDA1F2B93E30048CA80 /* LaunchScreen.storyboard */,
@@ -156,6 +159,7 @@
 				A6CC6EE51F2B95060048CA80 /* FKFakeTransition.swift in Sources */,
 				A6CC6ED41F2B93E30048CA80 /* ViewController.swift in Sources */,
 				A6CC6ED21F2B93E30048CA80 /* AppDelegate.swift in Sources */,
+				A6CC6EE91F2BCA0D0048CA80 /* ExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
